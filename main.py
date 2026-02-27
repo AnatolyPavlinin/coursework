@@ -1,16 +1,22 @@
-# This is a sample Python script.
+import os.path
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import pandas as pd
 
+from src.reports import spending_by_weekday
+from src.services import get_operations_dict
+from src.views import get_json_answer, file_path
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+if __name__ == "__main__":
 
+    """основная функция"""
+    date = input("Введите пожалуйста время, по которому хотите запуск программы (формат YYYY.MM.DD HH:MM:SS)\n")
+    print(get_json_answer(date))
+    data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
+    transactions = get_operations_dict(file_path)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    user_input = input(
+        "Хотите проанализировать ваши траты по дням недели за последние три месяца " "(от переданной даты)? Да/Нет\n"
+    ).lower()
+    if user_input == "да":
+        new_date = input("Введите дату (формат 10.08.2020 15:20:10)\n").lower()
+        print(spending_by_weekday(pd.DataFrame(transactions), new_date))
