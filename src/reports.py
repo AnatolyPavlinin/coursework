@@ -5,6 +5,7 @@ from typing import Optional
 
 import pandas as pd
 from dateutil.relativedelta import relativedelta
+
 from src.decorators import log
 
 logger = logging.getLogger("reports")

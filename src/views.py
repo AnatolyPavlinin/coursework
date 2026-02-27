@@ -4,11 +4,11 @@ import os
 from heapq import nlargest
 from pathlib import Path
 from typing import Any, Dict, Sequence
-from urllib.request import urlopen
 
 import pandas as pd
 import requests
 from dotenv import load_dotenv
+
 from src.services import get_operations_dict
 from src.utils import hi_message
 

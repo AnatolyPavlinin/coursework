@@ -1,9 +1,9 @@
 import json
 import logging
 import re
+from pathlib import Path
 
 import pandas as pd
-from pathlib import Path
 
 current_dir = Path(__file__).parent
 project_root = current_dir.parent
