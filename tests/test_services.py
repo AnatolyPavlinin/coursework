@@ -1,13 +1,12 @@
 import json
-import os.path
 from typing import Any, Dict, List
 from unittest.mock import Mock, patch
 
-import os
 import pandas as pd
 import pytest
 
 from src.services import find_string, get_operations_dict
+from src.views import file_path
 
 
 @patch("pandas.read_excel", create=True)
@@ -32,7 +31,7 @@ def test_get_list_of_transactions(mock_read_excel: Mock) -> None:
         }
     )
 
-    assert get_operations_dict(os.path.join("..", "data", "operations.xls")) == [
+    assert get_operations_dict(file_path) == [
         {
             "MCC": 5411.0,
             "Бонусы (включая кэшбэк)": 0,
@@ -66,8 +65,8 @@ def operations() -> list[dict]:
 def test_find_string(mock_read_excel: Mock, operations: list[dict]) -> None:
     mock_read_excel.return_value = pd.DataFrame(operations)
 
-    result = find_string(os.path.join("..", "data", "operations.xlsx"), "ресторан")
+    result = find_string(file_path, "ресторан")
 
     expected_result: List[Dict[str, Any]] = []
     assert json.loads(result) == expected_result
-    mock_read_excel.assert_called_once_with(os.path.join("..", "data", "operations.xlsx"))
+    mock_read_excel.assert_called_once_with(file_path)
