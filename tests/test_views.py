@@ -95,12 +95,12 @@ def test_get_json_answer(mock_read_excel: Mock, mock_requests_get: Mock) -> None
         ]
     )
 
-    # Мокий API-ответ для конвертации валют
+    # Мок API-ответ для конвертации валют
     mock_currency_response = Mock()
     mock_currency_response.json.return_value = {"conversion_rates": {"RUB": 85.6933}}
     mock_requests_get.side_effect = lambda url, *args, **kwargs: mock_currency_response
 
-    # Мокой API-ответ для стоимости акций
+    # Мок API-ответ для стоимости акций
     mock_stock_response = Mock()
     mock_stock_response.json.return_value = [
         {"symbol": "TSLA", "price": 210.975},
