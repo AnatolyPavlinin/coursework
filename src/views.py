@@ -104,13 +104,9 @@ def get_json_answer(date: str) -> Sequence[object] | str:
                 total_sum.remove(amount)
     out_put_func["top_transactions"] = top_transactions
 
-    # url_2 = f"https://financialmodelingprep.com/api/v3/stock/list?apikey={API_KEY_2}"
-    url_2 = "https://financialmodelingprep.com/stable/search-exchange-variants?&apikey={API_KEY_2}"
+    url_2 = f"https://financialmodelingprep.com/stable/search-exchange-variants?&apikey={API_KEY_2}"
     response_2 = requests.get(url_2)
     response_data_2 = response_2.json()
-
-    print(f"Тип response_data_2: {type(response_data_2)}")
-    print(f"Содержимое: {response_data_2}")
 
     for share in response_data_2:
         for stock in stocks:

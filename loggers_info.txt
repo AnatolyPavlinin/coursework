@@ -92,3 +92,8 @@ start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
 2026-02-27 18:55:30,943 utils.py INFO: Приветствие будет: Добрый день!
 start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
 Файл прочтён корректно
+2026-02-28 11:02:12,739 views.py INFO: start get_json_answer
+2026-02-28 11:02:12,759 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 11:02:12,760 utils.py INFO: Приветствие будет: Добрый день!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно

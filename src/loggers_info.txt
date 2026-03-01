@@ -30,3 +30,8 @@ start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
 2026-02-27 19:20:02,053 views.py INFO: start get_json_answer
 2026-02-27 19:20:02,053 utils.py INFO: Анализируем, какое приветствие выбрать
 2026-02-27 19:20:02,054 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-28 12:05:20,017 views.py INFO: start get_json_answer
+2026-02-28 12:05:20,041 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 12:05:20,042 utils.py INFO: Приветствие будет: Добрый день!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
