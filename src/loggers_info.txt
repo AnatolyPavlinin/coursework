@@ -1,0 +1,37 @@
+start get_operations_dict ..\data\operations.xls
+2026-02-27 18:30:24,658 views.py INFO: start get_json_answer
+2026-02-27 18:30:24,658 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 18:30:24,659 utils.py INFO: Приветствие будет: Добрый день!
+start get_operations_dict data\operations.xlsx
+start find_string 
+start get_operations_dict ..\data\operations.xls
+start find_string 
+start get_operations_dict data\operations.xls
+start find_string 
+start get_operations_dict D:\Python\Study\coursework\src\data\operations.xls
+start find_string 
+start get_operations_dict D:\Python\Study\coursework\src\data\operations.xlsx
+start find_string 
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+start find_string 
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+start get_operations_dict ..\data\operations.xls
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+2026-02-27 18:58:22,682 views.py INFO: start get_json_answer
+2026-02-27 18:58:22,682 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 18:58:22,682 utils.py INFO: Приветствие будет: Добрый день!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+2026-02-27 19:20:02,053 views.py INFO: start get_json_answer
+2026-02-27 19:20:02,053 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:20:02,054 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-28 12:05:20,017 views.py INFO: start get_json_answer
+2026-02-28 12:05:20,041 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 12:05:20,042 utils.py INFO: Приветствие будет: Добрый день!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно

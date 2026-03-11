@@ -1,0 +1,1 @@
+spending_by_weekday error: 'str' object has no attribute 'to_dict'

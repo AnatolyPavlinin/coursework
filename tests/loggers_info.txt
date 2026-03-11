@@ -1,0 +1,597 @@
+2026-02-26 19:28:17,842 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-26 19:28:17,845 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:17,845 reports.py INFO: the resulting list 5
+2026-02-26 19:28:17,845 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:17,845 reports.py INFO: the resulting list 5
+2026-02-26 19:28:17,846 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:17,846 reports.py INFO: the resulting list 5
+2026-02-26 19:28:17,846 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:17,846 reports.py INFO: the resulting list 5
+2026-02-26 19:28:17,846 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:17,846 reports.py INFO: the resulting list 5
+2026-02-26 19:28:17,846 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:28:17,846 reports.py INFO: the resulting list 4
+2026-02-26 19:28:17,847 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:28:17,847 reports.py INFO: the resulting list 4
+2026-02-26 19:28:17,847 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:28:17,847 reports.py INFO: the resulting list 4
+2026-02-26 19:28:17,847 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:28:17,847 reports.py INFO: the resulting list 4
+2026-02-26 19:28:17,847 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-26 19:28:17,850 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:17,850 reports.py INFO: the resulting list 5
+2026-02-26 19:28:52,133 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-26 19:28:52,137 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:52,137 reports.py INFO: the resulting list 5
+2026-02-26 19:28:52,137 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:52,137 reports.py INFO: the resulting list 5
+2026-02-26 19:28:52,137 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:52,137 reports.py INFO: the resulting list 5
+2026-02-26 19:28:52,137 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:52,137 reports.py INFO: the resulting list 5
+2026-02-26 19:28:52,137 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:52,138 reports.py INFO: the resulting list 5
+2026-02-26 19:28:52,138 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:28:52,138 reports.py INFO: the resulting list 4
+2026-02-26 19:28:52,138 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:28:52,138 reports.py INFO: the resulting list 4
+2026-02-26 19:28:52,138 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:28:52,138 reports.py INFO: the resulting list 4
+2026-02-26 19:28:52,138 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:28:52,138 reports.py INFO: the resulting list 4
+2026-02-26 19:28:52,138 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-26 19:28:52,141 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:28:52,141 reports.py INFO: the resulting list 5
+start get_operations_dict ..\data\operations.xls
+Файл прочтён корректно
+start find_string 
+start get_operations_dict ..\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-26 19:28:52,157 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:28:52,158 utils.py INFO: Приветствие будет: Доброе утро!
+2026-02-26 19:28:52,160 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:28:52,161 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-26 19:28:52,162 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:28:52,163 utils.py INFO: Приветствие будет: Добрый вечер!
+2026-02-26 19:28:52,165 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:28:52,165 utils.py INFO: Приветствие будет: Доброй ночи!
+2026-02-26 19:28:52,169 views.py INFO: start get_json_answer
+2026-02-26 19:28:52,169 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:28:52,169 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict data\operations.xlsx
+Файл прочтён корректно
+2026-02-26 19:40:02,966 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-26 19:40:02,969 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:40:02,969 reports.py INFO: the resulting list 5
+2026-02-26 19:40:02,969 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:40:02,969 reports.py INFO: the resulting list 5
+2026-02-26 19:40:02,969 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:40:02,970 reports.py INFO: the resulting list 5
+2026-02-26 19:40:02,970 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:40:02,970 reports.py INFO: the resulting list 5
+2026-02-26 19:40:02,970 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:40:02,970 reports.py INFO: the resulting list 5
+2026-02-26 19:40:02,970 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:40:02,970 reports.py INFO: the resulting list 4
+2026-02-26 19:40:02,970 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:40:02,970 reports.py INFO: the resulting list 4
+2026-02-26 19:40:02,970 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:40:02,970 reports.py INFO: the resulting list 4
+2026-02-26 19:40:02,971 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:40:02,971 reports.py INFO: the resulting list 4
+2026-02-26 19:40:02,971 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-26 19:40:02,974 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:40:02,974 reports.py INFO: the resulting list 5
+start get_operations_dict ..\data\operations.xls
+Файл прочтён корректно
+start find_string 
+start get_operations_dict ..\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-26 19:40:02,989 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:40:02,990 utils.py INFO: Приветствие будет: Доброе утро!
+2026-02-26 19:40:02,992 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:40:02,992 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-26 19:40:02,994 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:40:02,994 utils.py INFO: Приветствие будет: Добрый вечер!
+2026-02-26 19:40:02,996 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:40:02,996 utils.py INFO: Приветствие будет: Доброй ночи!
+2026-02-26 19:40:03,000 views.py INFO: start get_json_answer
+2026-02-26 19:40:03,000 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:40:03,000 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict data\operations.xlsx
+Файл прочтён корректно
+2026-02-26 19:41:12,929 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-26 19:41:12,933 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:12,933 reports.py INFO: the resulting list 5
+2026-02-26 19:41:12,933 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:12,933 reports.py INFO: the resulting list 5
+2026-02-26 19:41:12,933 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:12,933 reports.py INFO: the resulting list 5
+2026-02-26 19:41:12,933 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:12,933 reports.py INFO: the resulting list 5
+2026-02-26 19:41:12,933 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:12,934 reports.py INFO: the resulting list 5
+2026-02-26 19:41:12,934 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:41:12,934 reports.py INFO: the resulting list 4
+2026-02-26 19:41:12,934 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:41:12,934 reports.py INFO: the resulting list 4
+2026-02-26 19:41:12,934 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:41:12,934 reports.py INFO: the resulting list 4
+2026-02-26 19:41:12,934 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:41:12,934 reports.py INFO: the resulting list 4
+2026-02-26 19:41:12,934 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-26 19:41:18,395 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:18,396 reports.py INFO: the resulting list 5
+2026-02-26 19:41:26,257 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-26 19:41:26,261 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:26,261 reports.py INFO: the resulting list 5
+2026-02-26 19:41:26,261 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:26,261 reports.py INFO: the resulting list 5
+2026-02-26 19:41:26,261 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:26,261 reports.py INFO: the resulting list 5
+2026-02-26 19:41:26,261 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:26,262 reports.py INFO: the resulting list 5
+2026-02-26 19:41:26,262 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:26,262 reports.py INFO: the resulting list 5
+2026-02-26 19:41:26,262 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:41:26,262 reports.py INFO: the resulting list 4
+2026-02-26 19:41:26,262 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:41:26,262 reports.py INFO: the resulting list 4
+2026-02-26 19:41:26,262 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:41:26,262 reports.py INFO: the resulting list 4
+2026-02-26 19:41:26,262 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:41:26,262 reports.py INFO: the resulting list 4
+2026-02-26 19:41:26,262 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-26 19:41:26,265 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:41:26,265 reports.py INFO: the resulting list 5
+start get_operations_dict ..\data\operations.xls
+Файл прочтён корректно
+start find_string 
+start get_operations_dict ..\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-26 19:41:34,251 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:41:34,255 utils.py INFO: Приветствие будет: Доброе утро!
+2026-02-26 19:41:34,257 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:41:34,257 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-26 19:41:34,260 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:41:34,260 utils.py INFO: Приветствие будет: Добрый вечер!
+2026-02-26 19:41:34,262 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:41:34,262 utils.py INFO: Приветствие будет: Доброй ночи!
+2026-02-26 19:41:39,407 views.py INFO: start get_json_answer
+2026-02-26 19:41:39,408 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:41:39,408 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict data\operations.xlsx
+Файл прочтён корректно
+start get_operations_dict ..\data\operations.xls
+Файл прочтён корректно
+start find_string 
+start get_operations_dict ..\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-26 19:49:00,444 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-26 19:49:00,448 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:00,448 reports.py INFO: the resulting list 5
+2026-02-26 19:49:00,448 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:00,448 reports.py INFO: the resulting list 5
+2026-02-26 19:49:00,448 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:00,448 reports.py INFO: the resulting list 5
+2026-02-26 19:49:00,448 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:00,448 reports.py INFO: the resulting list 5
+2026-02-26 19:49:00,448 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:00,449 reports.py INFO: the resulting list 5
+2026-02-26 19:49:00,449 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:49:00,449 reports.py INFO: the resulting list 4
+2026-02-26 19:49:00,449 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:49:00,449 reports.py INFO: the resulting list 4
+2026-02-26 19:49:00,449 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:49:00,449 reports.py INFO: the resulting list 4
+2026-02-26 19:49:00,449 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:49:00,449 reports.py INFO: the resulting list 4
+2026-02-26 19:49:00,449 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-26 19:49:00,452 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:00,452 reports.py INFO: the resulting list 5
+start get_operations_dict ..\data\operations.xls
+Файл прочтён корректно
+start find_string 
+start get_operations_dict ..\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-26 19:49:00,468 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:49:00,468 utils.py INFO: Приветствие будет: Доброе утро!
+2026-02-26 19:49:00,471 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:49:00,471 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-26 19:49:00,473 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:49:00,473 utils.py INFO: Приветствие будет: Добрый вечер!
+2026-02-26 19:49:00,476 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:49:00,476 utils.py INFO: Приветствие будет: Доброй ночи!
+2026-02-26 19:49:00,480 views.py INFO: start get_json_answer
+2026-02-26 19:49:00,480 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:49:00,480 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict data\operations.xlsx
+Файл прочтён корректно
+2026-02-26 19:49:55,586 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-26 19:49:55,589 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:55,589 reports.py INFO: the resulting list 5
+2026-02-26 19:49:55,589 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:55,589 reports.py INFO: the resulting list 5
+2026-02-26 19:49:55,590 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:55,590 reports.py INFO: the resulting list 5
+2026-02-26 19:49:55,590 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:55,590 reports.py INFO: the resulting list 5
+2026-02-26 19:49:55,590 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:55,590 reports.py INFO: the resulting list 5
+2026-02-26 19:49:55,590 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:49:55,590 reports.py INFO: the resulting list 4
+2026-02-26 19:49:55,590 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:49:55,590 reports.py INFO: the resulting list 4
+2026-02-26 19:49:55,590 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:49:55,591 reports.py INFO: the resulting list 4
+2026-02-26 19:49:55,591 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-26 19:49:55,591 reports.py INFO: the resulting list 4
+2026-02-26 19:49:55,591 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-26 19:49:55,594 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-26 19:49:55,594 reports.py INFO: the resulting list 5
+start get_operations_dict ..\data\operations.xls
+Файл прочтён корректно
+start find_string 
+start get_operations_dict ..\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-26 19:49:55,610 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:49:55,611 utils.py INFO: Приветствие будет: Доброе утро!
+2026-02-26 19:49:55,613 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:49:55,613 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-26 19:49:55,616 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:49:55,616 utils.py INFO: Приветствие будет: Добрый вечер!
+2026-02-26 19:49:55,618 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:49:55,618 utils.py INFO: Приветствие будет: Доброй ночи!
+2026-02-26 19:49:55,622 views.py INFO: start get_json_answer
+2026-02-26 19:49:55,622 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-26 19:49:55,622 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict data\operations.xlsx
+Файл прочтён корректно
+2026-02-27 19:01:43,266 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-27 19:01:43,289 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:01:43,289 reports.py INFO: the resulting list 5
+2026-02-27 19:01:43,289 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:01:43,289 reports.py INFO: the resulting list 5
+2026-02-27 19:01:43,289 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:01:43,289 reports.py INFO: the resulting list 5
+2026-02-27 19:01:43,289 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:01:43,289 reports.py INFO: the resulting list 5
+2026-02-27 19:01:43,289 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:01:43,290 reports.py INFO: the resulting list 5
+2026-02-27 19:01:43,290 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:01:43,290 reports.py INFO: the resulting list 4
+2026-02-27 19:01:43,290 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:01:43,290 reports.py INFO: the resulting list 4
+2026-02-27 19:01:43,290 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:01:43,290 reports.py INFO: the resulting list 4
+2026-02-27 19:01:43,290 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:01:43,290 reports.py INFO: the resulting list 4
+2026-02-27 19:01:43,290 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-27 19:01:43,293 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:01:43,293 reports.py INFO: the resulting list 5
+start get_operations_dict ..\data\operations.xls
+Файл прочтён корректно
+start find_string 
+start get_operations_dict ..\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-27 19:01:43,309 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:01:43,309 utils.py INFO: Приветствие будет: Доброе утро!
+2026-02-27 19:01:43,311 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:01:43,311 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-27 19:01:43,313 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:01:43,314 utils.py INFO: Приветствие будет: Добрый вечер!
+2026-02-27 19:01:43,316 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:01:43,316 utils.py INFO: Приветствие будет: Доброй ночи!
+2026-02-27 19:01:43,319 views.py INFO: start get_json_answer
+2026-02-27 19:01:43,319 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:01:43,319 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+2026-02-27 19:23:39,486 views.py INFO: start get_json_answer
+2026-02-27 19:23:39,486 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:23:39,487 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-27 19:24:01,728 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-27 19:24:01,731 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:24:01,731 reports.py INFO: the resulting list 5
+2026-02-27 19:24:01,731 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:24:01,731 reports.py INFO: the resulting list 5
+2026-02-27 19:24:01,731 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:24:01,731 reports.py INFO: the resulting list 5
+2026-02-27 19:24:01,731 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:24:01,731 reports.py INFO: the resulting list 5
+2026-02-27 19:24:01,731 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:24:01,731 reports.py INFO: the resulting list 5
+2026-02-27 19:24:01,732 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:24:01,732 reports.py INFO: the resulting list 4
+2026-02-27 19:24:01,732 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:24:01,732 reports.py INFO: the resulting list 4
+2026-02-27 19:24:01,732 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:24:01,732 reports.py INFO: the resulting list 4
+2026-02-27 19:24:01,732 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:24:01,732 reports.py INFO: the resulting list 4
+2026-02-27 19:24:01,733 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-27 19:24:01,736 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:24:01,736 reports.py INFO: the resulting list 5
+start get_operations_dict ..\data\operations.xls
+Файл прочтён корректно
+start find_string 
+start get_operations_dict ..\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-27 19:24:01,751 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:24:01,751 utils.py INFO: Приветствие будет: Доброе утро!
+2026-02-27 19:24:01,754 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:24:01,754 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-27 19:24:01,756 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:24:01,756 utils.py INFO: Приветствие будет: Добрый вечер!
+2026-02-27 19:24:01,758 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:24:01,758 utils.py INFO: Приветствие будет: Доброй ночи!
+2026-02-27 19:24:01,762 views.py INFO: start get_json_answer
+2026-02-27 19:24:01,762 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:24:01,762 utils.py INFO: Приветствие будет: Доброе утро!
+2026-02-27 19:25:29,080 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-27 19:25:29,084 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:25:29,084 reports.py INFO: the resulting list 5
+2026-02-27 19:25:29,084 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:25:29,084 reports.py INFO: the resulting list 5
+2026-02-27 19:25:29,084 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:25:29,084 reports.py INFO: the resulting list 5
+2026-02-27 19:25:29,084 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:25:29,084 reports.py INFO: the resulting list 5
+2026-02-27 19:25:29,084 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:25:29,084 reports.py INFO: the resulting list 5
+2026-02-27 19:25:29,084 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:25:29,085 reports.py INFO: the resulting list 4
+2026-02-27 19:25:29,085 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:25:29,085 reports.py INFO: the resulting list 4
+2026-02-27 19:25:29,085 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:25:29,085 reports.py INFO: the resulting list 4
+2026-02-27 19:25:29,085 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-27 19:25:29,085 reports.py INFO: the resulting list 4
+2026-02-27 19:25:29,085 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-27 19:25:29,088 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-27 19:25:29,088 reports.py INFO: the resulting list 5
+start get_operations_dict ..\data\operations.xls
+Файл прочтён корректно
+start find_string 
+start get_operations_dict ..\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-27 19:25:37,309 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:25:37,312 utils.py INFO: Приветствие будет: Доброе утро!
+2026-02-27 19:25:37,314 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:25:37,315 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-27 19:25:37,317 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:25:37,317 utils.py INFO: Приветствие будет: Добрый вечер!
+2026-02-27 19:25:37,319 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:25:37,319 utils.py INFO: Приветствие будет: Доброй ночи!
+2026-02-27 19:25:42,524 views.py INFO: start get_json_answer
+2026-02-27 19:25:42,524 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:25:42,525 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+2026-02-27 19:29:06,258 views.py INFO: start get_json_answer
+2026-02-27 19:29:06,259 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-27 19:29:06,259 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+start get_operations_dict ..\data\operations.xls
+Файл прочтён корректно
+start find_string 
+start get_operations_dict ..\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-28 08:27:32,379 views.py INFO: start get_json_answer
+2026-02-28 08:27:32,379 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 08:27:32,380 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+2026-02-28 11:09:26,964 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-28 11:09:26,968 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:09:26,968 reports.py INFO: the resulting list 5
+2026-02-28 11:09:26,969 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:09:26,969 reports.py INFO: the resulting list 5
+2026-02-28 11:09:26,969 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:09:26,969 reports.py INFO: the resulting list 5
+2026-02-28 11:09:26,969 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:09:26,969 reports.py INFO: the resulting list 5
+2026-02-28 11:09:26,969 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:09:26,969 reports.py INFO: the resulting list 5
+2026-02-28 11:09:26,969 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:09:26,969 reports.py INFO: the resulting list 4
+2026-02-28 11:09:26,969 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:09:26,970 reports.py INFO: the resulting list 4
+2026-02-28 11:09:26,970 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:09:26,970 reports.py INFO: the resulting list 4
+2026-02-28 11:09:26,970 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:09:26,970 reports.py INFO: the resulting list 4
+2026-02-28 11:09:26,970 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-28 11:11:51,244 views.py INFO: start get_json_answer
+2026-02-28 11:11:51,245 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 11:11:51,245 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+2026-02-28 11:13:30,588 views.py INFO: start get_json_answer
+2026-02-28 11:13:30,589 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 11:13:30,589 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+2026-02-28 11:14:24,294 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-28 11:14:24,298 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:14:24,298 reports.py INFO: the resulting list 5
+2026-02-28 11:14:24,298 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:14:24,298 reports.py INFO: the resulting list 5
+2026-02-28 11:14:24,298 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:14:24,298 reports.py INFO: the resulting list 5
+2026-02-28 11:14:24,298 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:14:24,298 reports.py INFO: the resulting list 5
+2026-02-28 11:14:24,298 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:14:24,298 reports.py INFO: the resulting list 5
+2026-02-28 11:14:24,298 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:14:24,299 reports.py INFO: the resulting list 4
+2026-02-28 11:14:24,299 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:14:24,299 reports.py INFO: the resulting list 4
+2026-02-28 11:14:24,299 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:14:24,299 reports.py INFO: the resulting list 4
+2026-02-28 11:14:24,299 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:14:24,299 reports.py INFO: the resulting list 4
+2026-02-28 11:14:24,299 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-28 11:14:24,302 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:14:24,302 reports.py INFO: the resulting list 5
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+start find_string 
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-28 11:14:24,317 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 11:14:24,318 utils.py INFO: Приветствие будет: Доброе утро!
+2026-02-28 11:14:24,320 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 11:14:24,321 utils.py INFO: Приветствие будет: Добрый день!
+2026-02-28 11:14:24,323 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 11:14:24,323 utils.py INFO: Приветствие будет: Добрый вечер!
+2026-02-28 11:14:24,325 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 11:14:24,325 utils.py INFO: Приветствие будет: Доброй ночи!
+2026-02-28 11:14:24,330 views.py INFO: start get_json_answer
+2026-02-28 11:14:24,330 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 11:14:24,330 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+start find_string 
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-02-28 11:53:18,404 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-02-28 11:53:18,407 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:53:18,407 reports.py INFO: the resulting list 5
+2026-02-28 11:53:18,407 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:53:18,407 reports.py INFO: the resulting list 5
+2026-02-28 11:53:18,407 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:53:18,408 reports.py INFO: the resulting list 5
+2026-02-28 11:53:18,408 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:53:18,408 reports.py INFO: the resulting list 5
+2026-02-28 11:53:18,408 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-02-28 11:53:18,408 reports.py INFO: the resulting list 5
+2026-02-28 11:53:18,408 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:53:18,408 reports.py INFO: the resulting list 4
+2026-02-28 11:53:18,408 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:53:18,408 reports.py INFO: the resulting list 4
+2026-02-28 11:53:18,408 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:53:18,408 reports.py INFO: the resulting list 4
+2026-02-28 11:53:18,409 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-02-28 11:53:18,409 reports.py INFO: the resulting list 4
+2026-02-28 11:53:18,409 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-02-28 12:01:00,396 views.py INFO: start get_json_answer
+2026-02-28 12:01:00,397 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 12:01:00,397 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+2026-02-28 12:02:45,617 views.py INFO: start get_json_answer
+2026-02-28 12:02:45,618 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-02-28 12:02:45,618 utils.py INFO: Приветствие будет: Доброе утро!
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+2026-03-01 11:06:01,723 views.py INFO: start get_json_answer
+2026-03-01 11:06:01,736 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-03-01 11:06:01,736 utils.py INFO: Приветствие будет: Доброе утро!
+2026-03-01 11:08:43,323 reports.py INFO: start spending_by_weekday          Дата операции  ... Сумма операции с округлением
+0  31.12.2021 00:12:53  ...                        800.0
+1  30.12.2021 22:22:03  ...                      20000.0
+
+[2 rows x 15 columns], 31.12.2021 10:20:23
+2026-03-01 11:08:43,339 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-03-01 11:08:43,339 reports.py INFO: the resulting list 5
+2026-03-01 11:08:43,340 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-03-01 11:08:43,340 reports.py INFO: the resulting list 5
+2026-03-01 11:08:43,340 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-03-01 11:08:43,340 reports.py INFO: the resulting list 5
+2026-03-01 11:08:43,340 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-03-01 11:08:43,340 reports.py INFO: the resulting list 5
+2026-03-01 11:08:43,340 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-03-01 11:08:43,340 reports.py INFO: the resulting list 5
+2026-03-01 11:08:43,340 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-03-01 11:08:43,340 reports.py INFO: the resulting list 4
+2026-03-01 11:08:43,340 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-03-01 11:08:43,341 reports.py INFO: the resulting list 4
+2026-03-01 11:08:43,341 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-03-01 11:08:43,341 reports.py INFO: the resulting list 4
+2026-03-01 11:08:43,341 reports.py INFO: start get_date 30.12.2021 22:22:03
+2026-03-01 11:08:43,341 reports.py INFO: the resulting list 4
+2026-03-01 11:08:43,341 reports.py INFO: the resulting list {"Понедельник": 0.0, "Вторник": 0.0, "Среда": 0.0, "Четверг": 20000.0, "Пятница": 800.0, "Суббота": 0.0, "Воскресенье": 0.0}
+2026-03-01 11:08:43,355 reports.py INFO: start get_date 31.12.2021 00:12:53
+2026-03-01 11:08:43,355 reports.py INFO: the resulting list 5
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+start find_string 
+start get_operations_dict D:\Python\Study\coursework\data\operations.xlsx
+Файл прочтён корректно
+Список транзакций отсортирован по искомой строке
+2026-03-01 11:08:43,370 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-03-01 11:08:43,371 utils.py INFO: Приветствие будет: Доброе утро!
+2026-03-01 11:08:43,373 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-03-01 11:08:43,374 utils.py INFO: Приветствие будет: Добрый день!
+2026-03-01 11:08:43,376 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-03-01 11:08:43,376 utils.py INFO: Приветствие будет: Добрый вечер!
+2026-03-01 11:08:43,378 utils.py INFO: Анализируем, какое приветствие выбрать
+2026-03-01 11:08:43,379 utils.py INFO: Приветствие будет: Доброй ночи!
